@@ -17,8 +17,6 @@ export class TodoComponent implements OnInit {
 
   ngOnInit() {
     this.tasks = tasks;
-    console.log('ngOnInit');
-
   }
 
   doneTask(arr: any[]) {
